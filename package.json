@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "heroku": "^8.10.0",
     "msw": "^0.35.0"
   }
 }
