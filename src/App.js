@@ -14,6 +14,7 @@ import ProfilePage from "./pages/profiles/ProfilePage";
 import UsernameForm from "./pages/profiles/UsernameForm";
 import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
+import NotFound from "./components/NotFound";
 
 function App() {
   const currentUser = useCurrentUser();
@@ -28,7 +29,7 @@ function App() {
             exact
             path="/"
             render={() => (
-              <PostsPage message="No results found. Please change the search keyword." />
+              <PostsPage message="No results found. Adjust the search keyword." />
             )}
           />
           <Route
@@ -36,7 +37,7 @@ function App() {
             path="/feed"
             render={() => (
               <PostsPage
-                message="No results found. Change the search keyword or follow a user."
+                message="No results found. Adjust the search keyword or follow a user."
                 filter={`owner__followed__owner__profile=${profile_id}&`}
               />
             )}
@@ -73,7 +74,7 @@ function App() {
             render={() => <ProfileEditForm />}
           />
 
-          <Route render={() => <p>Page not found!</p>} />
+          <Route render={() => <NotFound />} />
         </Switch>
       </Container>
     </div>
