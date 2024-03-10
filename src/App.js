@@ -58,7 +58,7 @@ function App() {
             path="/bookmarked"
             render={() => (
               <PostsPage
-                message="No results found. Adjust the search keyword or like a post."
+                message="No results found. Change the search keyword or bookmark a post."
                 filter={`bookmarks__owner__profile=${profile_id}&ordering=-bookmarks__created_at&`}
               />
             )}
