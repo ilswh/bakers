@@ -9,7 +9,7 @@ import { useHistory } from "react-router-dom";
 import appStyles from "../../App.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import { axiosReq } from "../../api/axiosDefaults";
-import useRedirect from "../../hooks/useRedirect";
+import { useRedirect } from "../../hooks/useRedirect";
 
 const ContactCreateForm = () => {
   useRedirect("loggedOut");
@@ -59,8 +59,8 @@ const ContactCreateForm = () => {
         <Form.Label>Cause for contacting us</Form.Label>
         <Form.Control
           type="text"
-          name="reason"
-          value={reason}
+          name="cause"
+          value={cause}
           onChange={handleChange}
         />
       </Form.Group>
@@ -75,8 +75,8 @@ const ContactCreateForm = () => {
         <Form.Control
           as="textarea"
           rows={5}
-          name="content"
-          value={content}
+          name="matter"
+          value={matter}
           onChange={handleChange}
         />
       </Form.Group>
@@ -102,7 +102,7 @@ const ContactCreateForm = () => {
       </Form>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title><FontAwesomeIcon icon="fa-solid fa-check" /></Modal.Title>
+          <Modal.Title>Your message have been sent!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           Thank you for contacting bakers. We will get back to you asap!
