@@ -79,6 +79,7 @@ const Post = (props) => {
       // console.log(err);
     }
   };
+  
   const handleBookmark = async () => {
     try {
       const { data } = await axiosRes.post("/bookmarks/", { post: id });
