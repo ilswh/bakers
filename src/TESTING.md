@@ -128,11 +128,11 @@ I fully acknowledge and understand that, in a real-world scenario, an extensive 
 
 ## Bugs
 
--  `'include is not defined'` when trying to runserver.
+-  `'include'` when __.
 
     ![screenshot](documentation/bug-1.png)
 
-    - To fix this, I made the code shorter and easier for me to comprehend.
+    - To fix this, __.
 
       ![screenshot](documentation/bug-1-fix.png)
 
@@ -147,7 +147,7 @@ All previously closed/fixed bugs can be tracked [here](..).
 
 | Bug | Status |
 | --- | --- |
-| [`include is not defined` when trying to runserver.](https://github.com/ilswh/poetic-society/issues/11) | Closed |
+| [`include is not defined` when __.](https://github.com/ilswh/poetic-society/issues/11) | Closed |
 
 **Open Issues**
 
@@ -163,6 +163,6 @@ Any remaining open issues can be tracked [here](https://github.com/ilswh/poetic-
 
     ![screenshot](documentation/css-validation.png)
 
-    - I have not yet attempted to fix this because it is bootstrap.
+    - I have not yet attempted to fix this.
 
 There are no remaining bugs that I am aware of.
