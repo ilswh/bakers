@@ -101,7 +101,6 @@ const NavBar = () => {
       fixed="top"
     >
       <Container>
-      <h1>BAKERS</h1>
         <NavLink to="/">
           <Navbar.Brand>
             <img src={logo} alt="logo" height="45" />
