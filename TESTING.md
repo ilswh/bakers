@@ -57,8 +57,43 @@ I have used the recommended [JSHint](hhttps://jshint.com/) to validate all of my
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
-| File | CI URL | Screenshot | Notes |
-| --- | --- | --- | --- |
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| bookmarks/ models.py | ![screenshot](src/documentation/bookmarksmodels.png) | Passed |
+| bookmarks/ serializers.py | ![screenshot](src/documentation/bookmarksserializers.png) | Passed |
+| bookmarks/ urls.py | ![screenshot](src/documentation/bookmarksurls.png) | Passed |
+| bookmarks/ views.py | ![screenshot](src/documentation/bookmarksurls.png) | Passed |
+| comments/ models.py | ![screenshot](src/documentation/commentsmodels.png) | Passed |
+| comments/ serializers.py | ![screenshot](src/documentation/commentsserializers.png) | Passed |
+| comments/ urls.py | ![screenshot](src/documentation/commentsurls.png) | Passed |
+| comments/ views.py | ![screenshot](src/documentation/commentsviews.png) | Passed |
+| contacts/ models.py | ![screenshot](src/documentation/contactsmodels.png) | Passed |
+| contacts/ serializers.py | ![screenshot](src/documentation/contactsserializers.png) | Passed |
+| contacts/ urls.py | ![screenshot](src/documentation/contactsurls.png) | Passed |
+| contacts/ views.py | ![screenshot](src/documentation/contactsviews.png) | Passed |
+| followers/ models.py | ![screenshot](src/documentation/followersmodels.png) | Passed |
+| followers/ serializers.py | ![screenshot](src/documentation/followersserializers.png) | Passed |
+| followers/ urls.py | ![screenshot](src/documentation/followersurls.png) | Passed |
+| followers/ views.py | ![screenshot](src/documentation/followersviews.png) | Passed |
+| likes/ models.py | ![screenshot](src/documentation/likesmodels.png) | Passed |
+| likes/ serializers.py | ![screenshot](src/documentation/likesserializers.png) | Passed |
+| likes/ urls.py | ![screenshot](src/documentation/likesurls.png) | Passed |
+| likes/ views.py | ![screenshot](src/documentation/likesviews.png) | Passed |
+| posts/ models.py | ![screenshot](src/documentation/postsmodels.png) | Passed |
+| posts/ serializers.py | ![screenshot](src/documentation/postsserializers.png) | Passed |
+| posts/ urls.py | ![screenshot](src/documentation/postsurls.png) | Passed |
+| posts/ views.py | ![screenshot](src/documentation/postsviews.png) | Passed |
+| profiles/ models.py | ![screenshot](src/documentation/profilesmodels.png) | Passed |
+| profiles/ serializers.py | ![screenshot](src/documentation/profilesserializers.png) | Passed |
+| profiles/ urls.py | ![screenshot](src/documentation/profilesurls.png) | Passed |
+| profiles/ views.py | ![screenshot](src/documentation/profilesviews.png) | Passed |
+| drfapi/ serializers.py | ![screenshot](src/documentation/drfapiserializers.png) | Passed |
+| drfapi/ urls.py | ![screenshot](src/documentation/drfapiurls.png) | Passed |
+| drfapi/ views.py | ![screenshot](src/documentation/drfapiviews.png) | Passed |
+| drfapi/ permissions.py | ![screenshot](src/documentation/drfapipermissions.png) | Passed |
+| drfapi/ settings.py | ![screenshot](src/documentation/drfapisettings.png) | Line to long, did not find a good place to cut in to two lines without breaking code |
+| drfapi/ wsgi.py | ![screenshot](src/documentation/drfapiwsgi.png) | Passed |
+| manage.py | ![screenshot](src/documentation/manage.png) | Passed |
 
 ## Browser Compatibility
 
@@ -198,11 +233,5 @@ Any remaining open issues can be tracked [here](https://github.com/ilswh/poetic-
 | [register.html valdidation failed](https://github.com/ilswh/poetic-society/issues/14) | Open |
 
 ## Unfixed Bugs
-
-- Parse error.
-
-    ![screenshot](documentation/css-validation.png)
-
-    - I have not yet attempted to fix this.
 
 There are no remaining bugs that I am aware of.
