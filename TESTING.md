@@ -98,8 +98,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Add post | Kitchen | Feed | Liked | Bookmarks | Contact Us | Sign In | Sign Up | Profile |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Opera | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Firefox |  --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Opera |  ![screenshot](src/documentation/operaaddpost.png) | ![screenshot](src/documentation/operakitchen.png) | ![screenshot](src/documentation/operafeed.png) | ![screenshot](src/documentation/operaliked.png) | ![screenshot](src/documentation/operabookmarked.png) | ![screenshot](src/documentation/operacontactus.png) | ![screenshot](src/documentation/operaoperasignin.png) | ![screenshot](src/documentation/signup.png) | ![screenshot](src/documentation/operaprofile.png) |
+| Firefox |  ![screenshot](src/documentation/firefoxaddpost.png) | ![screenshot](src/documentation/firefoxkitchen.png) | ![screenshot](src/documentation/firefoxfeed.png) | ![screenshot](src/documentation/firefoxliked.png) | ![screenshot](src/documentation/firefoxbookmarked.png) | ![screenshot](src/documentation/firefoxcontactus.png) | ![screenshot](src/documentation/firefoxsignin.png) | ![screenshot](src/documentation/firefoxsignup.png) | ![screenshot](src/documentation/firefoxprofile.png) |
 | Chrome |  ![screenshot](src/documentation/addpost.png) | ![screenshot](src/documentation/kitchen.png) | ![screenshot](src/documentation/feed.png) | ![screenshot](src/documentation/liked.png) | ![screenshot](src/documentation/bookmarked.png) | ![screenshot](src/documentation/contactus.png) | ![screenshot](src/documentation/signin.png) | ![screenshot](src/documentation/signup.png) | ![screenshot](src/documentation/profile.png) |
 
 ## Responsiveness
