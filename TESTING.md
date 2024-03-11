@@ -16,7 +16,7 @@ All files in Bakers have been validated through HTML, CSS and Python validators.
 
 ### HTML
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate HTML file.
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -43,15 +43,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | Profile.module.css & | ![screenshot](src/documentation/profilecss.png) | Passed |
 | ProfilePage.module.css & | ![screenshot](src/documentation/profilepagecss.png) | Passed |
 | SignInUpForm.css & | ![screenshot](src/documentation/signinupformcss.png) | Passed |
-
-
-### JavaScript
-
-I have used the recommended [JSHint](hhttps://jshint.com/) to validate all of my Javascripy files.
-
-| File | JS URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-
 
 ### Python
 
@@ -125,18 +116,17 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page | Mobile | Desktop | Notes |
-| --- | --- | --- | --- |
-| Add post | --- | --- | --- |
-| Kitchen | --- | --- | --- |
-|  Feed | --- | --- | --- |
-| Liked | --- | --- | --- |
-| Bookmarks | --- | --- | --- |
-| Contact Us | --- | --- | --- |
-| Sign out | --- | --- | --- |
-| Sign In | --- | --- | --- |
-| Sign Up | --- | --- | --- |
-| Profile |  --- | --- | --- |
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| Add post | ![screenshot](src/documentation/lhmaddpost.png) | ![screenshot](src/documentation/lhdaddpost.png) |
+| Kitchen | ![screenshot](src/documentation/lhmkitchen.png) | ![screenshot](src/documentation/lhdkitchen.png) |
+|  Feed | ![screenshot](src/documentation/lhmfeed.png) | ![screenshot](src/documentation/lhdfeed.png) |
+| Liked | ![screenshot](src/documentation/lhmliked.png) | ![screenshot](src/documentation/lhmliked.png) |
+| Bookmarks | ![screenshot](src/documentation/lhmbookmarked.png) | ![screenshot](src/documentation/lhdbookmarked.png) |
+| Contact Us | ![screenshot](src/documentation/lhmcontactus.png) | ![screenshot](src/documentation/lhdcontactus.png) |
+| Sign In | ![screenshot](src/documentation/lhmsignin.png) | ![screenshot](src/documentation/lhdsignin.png) |
+| Sign Up | ![screenshot](src/documentation/lmhsignup.png) | ![screenshot](src/documentation/lhdsignup.png) |
+| Profile | ![screenshot](src/documentation/lhmprofile.png) | ![screenshot](src/documentation/lhdprofile.png) |
 
 
 ## Defensive Programming
