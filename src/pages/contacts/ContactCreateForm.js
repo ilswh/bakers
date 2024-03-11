@@ -87,10 +87,10 @@ const ContactCreateForm = () => {
       ))}
 
       <Button className={btnStyles.Button} onClick={() => history.goBack()}>
-        Changed my mind.
+        Changed my mind
       </Button>
       <Button className={btnStyles.Button} type="submit">
-        Send to staff.
+        Send to staff
       </Button>
     </div>
   );
