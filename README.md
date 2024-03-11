@@ -54,6 +54,9 @@ Below you can see the user stories of new & returning site users together follow
 - As a returning site user, I would like to unfollow a user, so that I can stop seeing them on my feed.
 - As a returning site user, I would like to view my profile, so that I can see how many I follow and are following and how many and what posts I have made.
 - As a returning site user, I would like to view other users profile, so that I can see how many they follow and are following and how many and what posts they have made.
+- As a returning site user, I would like to be able to edit my profile, so that I can keep it updated as I change.
+- As a returning site user, I would like to be able to edit my bakerusername, so that I can keep it updated as I change.
+- As a returning site user, I would like to be able to edit my password, so that I be safe.
 
 ### Site Admin
 
@@ -88,6 +91,12 @@ Below you can see all of bakers features. Starting with the existing followed by
     - In order for a safe user experience, users can always choose to log out by clicking on logout.
 
 ![screenshot](src/documentation/signout.png)
+
+- **View post**
+
+    - Al signed in users can view a post by clicking on it.
+
+![screenshot](src/documentation/kitchen.png)
 
 - **Add post**
 
@@ -167,6 +176,12 @@ Below you can see all of bakers features. Starting with the existing followed by
     - When clicking on your own avatar you can see your how many post you made and all your posts. Also who you follow & are following.
 
 ![screenshot](src/documentation/profile.png)
+
+- **Edit Profile**
+
+    - When clicking on the dropdown menu at your profile, you can edit your profile or your bakerusername and password.
+
+![screenshot](src/documentation/profiledropdown.png)
 
 ### Future Features
 

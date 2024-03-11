@@ -176,9 +176,12 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a returning site user, I would like to edit a comment, so that I can fix mistakes I made. | ![screenshot](src/documentation/editcomment.png) |
 | As a returning site user, I would like to delete a commment, so that I can change my mind about a comment I wrote. | ![screenshot](src/documentation/deletecomment.png) |
 | As a returning site user, I would like to follow a user, so that I can see their posts frequently on feed. | ![screenshot](src/documentation/follow-unfollow.png) |
+| As a returning site user, I would like to view other users profile, so that I can see how many they follow and are following and how many and what posts they have made. | ![screenshot](src/documentation/profile.png) |
 | As a returning site user, I would like to unfollow a user, so that I can stop seeing them on my feed. | ![screenshot](src/documentation/follow-unfollow.png) |
 | As a returning site user, I would like to view my profile, so that I can see how many I follow and are following and how many and what posts I have made. | ![screenshot](src/documentation/profile.png) |
-| As a returning site user, I would like to view other users profile, so that I can see how many they follow and are following and how many and what posts they have made. | ![screenshot](src/documentation/profile.png) |
+| As a returning site user, I would like to be able to edit my profile, so that I can keep it updated as I change.  | ![screenshot](src/documentation/editprofile.png) |
+| As a returning site user, I would like to be able to edit my bakerusername, so that I can keep it updated as I change.  | ![screenshot](src/documentation/editbakername.png) |
+| As a returning site user, I would like to be able to edit my password, so that I be safe. | ![screenshot](src/documentation/editpassword.png) |
 | As a site administrator, I should be able to delete a user, so that I can keep a happy healthyh community. | ![screenshot](src/documentation/admin.png) |
 
 
