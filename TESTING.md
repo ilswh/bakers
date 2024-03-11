@@ -96,21 +96,21 @@ I have tested the browser compatability in the three browsers below.
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Add post | Kitchen | Feed | Liked | Bookmarks | Contact Us | Sign out | Sign In | Sign Up | Profile |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chrome | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Firefox |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Opera | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Browser | Add post | Kitchen | Feed | Liked | Bookmarks | Contact Us | Sign In | Sign Up | Profile |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Opera | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Firefox |  --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chrome |  ![screenshot](src/documentation/addpost.png) | ![screenshot](src/documentation/kitchen.png) | ![screenshot](src/documentation/feed.png) | ![screenshot](src/documentation/liked.png) | ![screenshot](src/documentation/bookmarked.png) | ![screenshot](src/documentation/contactus.png) | ![screenshot](src/documentation/signin.png) | ![screenshot](src/documentation/signup.png) | ![screenshot](src/documentation/profile.png) |
 
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device |  Add post | Kitchen | Feed | Liked | Bookmarks | Contact Us | Sign out | Sign In | Sign Up | Profile |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tablet (DevTools) | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Desktop |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Device |  Add post | Kitchen | Feed | Liked | Bookmarks | Contact Us | Sign In | Sign Up | Profile |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](src/documentation/mobileaddpost.png) | ![screenshot](src/documentation/mobilekitchen.png) | ![screenshot](src/documentation/mobilefeed.png) | ![screenshot](src/documentation/mobileliked.png) | ![screenshot](src/documentation/mobilebookmarked.png) | ![screenshot](src/documentation/mobilecontactus.png) | ![screenshot](src/documentation/mobilesignin.png) | ![screenshot](src/documentation/mobilesignup.png) | ![screenshot](src/documentationmobile/profile.png) |
+| Tablet (DevTools) |  ![screenshot](src/documentation/tabletaddpost.png) | ![screenshot](src/documentation/tabletkitchen.png) | ![screenshot](src/documentation/tabletfeed.png) | ![screenshot](src/documentation/tabletliked.png) | ![screenshot](src/documentation/tabletbookmarked.png) | ![screenshot](src/documentation/tabletcontactus.png) | ![screenshot](src/documentationtablet/signin.png) | ![screenshot](src/documentation/tabletsignup.png) | ![screenshot](src/documentation/tabletprofile.png) |
+| Desktop |  ![screenshot](src/documentation/addpost.png) | ![screenshot](src/documentation/kitchen.png) | ![screenshot](src/documentation/feed.png) | ![screenshot](src/documentation/liked.png) | ![screenshot](src/documentation/bookmarked.png) | ![screenshot](src/documentation/contactus.png) | ![screenshot](src/documentation/signin.png) | ![screenshot](src/documentation/signup.png) | ![screenshot](src/documentation/profile.png) |
 
 ## Lighthouse Audit
 
@@ -179,7 +179,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a returning site user, I would like to unfollow a user, so that I can stop seeing them on my feed. | ![screenshot](src/documentation/follow-unfollow.png) |
 | As a returning site user, I would like to view my profile, so that I can see how many I follow and are following and how many and what posts I have made. | ![screenshot](src/documentation/profile.png) |
 | As a returning site user, I would like to view other users profile, so that I can see how many they follow and are following and how many and what posts they have made. | ![screenshot](src/documentation/profile.png) |
-| As a site administrator, I should be able to delete a user, so that I can keep a happy healtyh community. | ![screenshot](src/documentation/admin.png) |
+| As a site administrator, I should be able to delete a user, so that I can keep a happy healthyh community. | ![screenshot](src/documentation/admin.png) |
 
 
 
