@@ -166,6 +166,30 @@ const Post = (props) => {
             <i className="far fa-comments" />
           </Link>
           {comments_count}
+          {is_owner ? (
+            <OverlayTrigger
+              placement="top"
+              overlay={<Tooltip>You can't bookmark your own post.</Tooltip>}
+            >
+              <i className="far fa-bookmark"></i>
+            </OverlayTrigger>
+          ) : bookmark_id ? (
+            <span onClick={handleUnbookmark}>
+              <i className={`far fa-bookmark`} />
+            </span>
+          ) : currentUser ? (
+            <span onClick={handleBookmark}>
+              <i className={`far fa-bookmark`} />
+            </span>
+          ) : (
+            <OverlayTrigger
+              placement="top"
+              overlay={<Tooltip>Log in to add bookmarks.</Tooltip>}
+            >
+              <i className="far fa-bookmark" />
+            </OverlayTrigger>
+          )}
+          {bookmarks_count}
         </div>
       </Card.Body>
     </Card>
