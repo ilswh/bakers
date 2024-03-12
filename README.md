@@ -224,7 +224,7 @@ It isn't a specialized tool, but with the right tags and project creation/issue 
 
 Through it, user stories, issues, and milestone tasks were planned, then tracked on a weekly basis using the basic Kanban board.
 
-![screenshot](documentation/gh-projects.png)
+![screenshot](src/documentation/ghproject.png)
 
 ### GitHub Issues
 
@@ -235,11 +235,15 @@ It also helped with milestone iterations on a weekly basis.
 
 - [Open Issues](https://github.com/ilswh/bakers/issues)
 
-    ![screenshot](documentation/gh-issues-open.png)
+    ![screenshot](src/documentation/ghissuesopen.png)
 
-- [Closed Issues](..)
+- [Closed Issues](https://github.com/ilswh/bakers/issues?q=is%3Aissue+is%3Aclosed)
 
-    ![screenshot](documentation/gh-issues-closed.png)
+    ![screenshot](src/documentation/ghissuesclosed.png)
+
+- [Milestones](https://github.com/ilswh/bakers/milestones)
+
+    ![screenshot](src/documentation/ghmilestones.png)
 
 ### MoSCoW Prioritization
 
