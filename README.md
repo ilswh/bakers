@@ -213,6 +213,7 @@ Below you can see all of bakers features. Starting with the existing followed by
 
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
+So I tried to generate one with DBeaver using my Elephant SQL details, but unforunatley without success.
 
 
 ## Agile Development Process
