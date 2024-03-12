@@ -409,10 +409,10 @@ When building the contact feature I took inspiration from my mentors project and
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Garith McGirr](https://github.com/Gareth-McGirr/body-doodles/tree/main/src/pages/contacts) | contact | github repo |
-| [Garith McGirr](https://github.com/Gareth-McGirr/body-doodles-api/tree/main/contacts) | contact | github rep |
-| [Theresa](https://github.com/th-1982/artistery-avenue) | bookmarks | github rep |
-| [Theresa](https://github.com/th-1982/artistery-avenue-api/tree/main/bookmarks) | bookmarks | github rep |
+| [Garith McGirr](https://github.com/Gareth-McGirr/body-doodles/tree/main/src/pages/contacts) | contact | Github repository (frontend) |
+| [Garith McGirr](https://github.com/Gareth-McGirr/body-doodles-api/tree/main/contacts) | contact | Github repository (backend) |
+| [Theresa](https://github.com/th-1982/artistery-avenue) | bookmarks | Github repository (frontend) |
+| [Theresa](https://github.com/th-1982/artistery-avenue-api/tree/main/bookmarks) | bookmarks | Github repository (backend) |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 
