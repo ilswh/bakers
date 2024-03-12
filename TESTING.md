@@ -192,7 +192,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a returning site user, I would like to be able to edit my profile, so that I can keep it updated as I change.  | ![screenshot](documentation/editprofile.png) |
 | As a returning site user, I would like to be able to edit my bakerusername, so that I can keep it updated as I change.  | ![screenshot](documentation/editbakername.png) |
 | As a returning site user, I would like to be able to edit my password, so that I be safe. | ![screenshot](documentation/editpassword.png) |
-| As a site administrator, I should be able to delete a user, so that I can keep a happy healthyh community. | ![screenshot](documentation/admin.png) |
+| As a site administrator, I should be able to delete and edit a user, so that I can keep a happy healthyh community. | ![screenshot](documentation/admin1.png)![screenshot](documentation/admin2.png)![screenshot](documentation/admin3.png)![screenshot](documentation/admin4.png)![screenshot](documentation/admin5.png) |
 
 
 
