@@ -202,38 +202,45 @@ I have conducted a series of automated tests on my application.
 
 I fully acknowledge and understand that, in a real-world scenario, an extensive set of additional tests would be more comprehensive.
 
-#### Unit Test Issues
-
 ## Bugs
 
--  `'include'` when __.
+### Frontend
 
-    ![screenshot](documentation/bug-1.png)
+-  The colors of the buttons on the contact form did not apply themselves.
 
-    - To fix this, __.
+    ![screenshot](src/documentation/bugbright.png)
 
-      ![screenshot](documentation/bug-1-fix.png)
+    - To fix this, I looked in files which had buttons where the colors were applied and saw that the .Bright (screenshot) was not being used, so I applied it on the buttons under the contact form.
 
+-  The bookmark icon did not show under any post.
+
+    ![screenshot](src/documentation/bugbookmark.png)
+
+    - To fix this, I realized I had not added any of my bookmarks(screenshot: terminal error message) I had not added the bookmarks in the cardbody, so I added them there.
+
+### Backend
+
+-  The avatar in the navbar did not work.
+
+    ![screenshot](src/documentation/bugavatar1.png)
+    ![screenshot](src/documentation/bugavatar2.png)
+    ![screenshot](src/documentation/bugavatarfix.png)
+
+    - To fix this, I added default_profile into the main folder as a new and changed the last letters/number in the links in my backend space.
+
+-  The drf api did not want to open from herokus open app button.
+
+    ![screenshot](src/documentation/bugdisallowedhost.png)
+
+    - I added the url under allowed_hosts in settings.py.
 
 ### GitHub **Issues**
 
 https://github.com/ilswh/bakers/issues
 
-**Fixed Bugs**
-
-All previously closed/fixed bugs can be tracked [here](..).
-
-| Bug | Status |
-| --- | --- |
-| [`include is not defined` when __.](https://github.com/ilswh/poetic-society/issues/11) | Closed |
-
 **Open Issues**
 
 Any remaining open issues can be tracked [here](https://github.com/ilswh/poetic-society/issues).
-
-| Bug | Status |
-| --- | --- |
-| [register.html valdidation failed](https://github.com/ilswh/poetic-society/issues/14) | Open |
 
 ## Unfixed Bugs
 
