@@ -60,7 +60,7 @@ Below you can see the user stories of new & returning site users together follow
 
 ### Site Admin
 
-- As a site administrator, I should be able to delete a user, so that I can keep a happy healtyh community.
+- As a site administrator, I should be able to delete and edit a user, so that I can keep a happy healtyh community.
 
 ## Features
 
