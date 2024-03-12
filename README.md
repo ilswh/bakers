@@ -402,7 +402,7 @@ You can fork this repository by using the following steps:
 
 ## Credits
 
-When building bakers I followed the walkalong of Moments and Django REST Frameworks.
+When building bakers I followed the walkalong of Moments and Django REST Frameworks from Code Institute.
 When building the contact feature I took inspiration from my mentors project and when building the bookmark feature I took inspiration from one of my mentors students. They are linked below, under content.
 
 ### Content
