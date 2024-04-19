@@ -1,19 +1,9 @@
-// import React, { useState } from "react";
+import React from "react";
 
-// import Container from "react-bootstrap/Container";
-// import Modal from "react-bootstrap/Modal";
+const ContactsThankYou = () =>
 
+    <div>
+        Your message have been sent! Thank you for contacting bakers, we will get back to you asap.
+    </div>
 
-
-//   <Container>
-//     <Modal>
-//        <Modal.Header>
-//         <Modal.Title>Your message have been sent!</Modal.Title>
-//         </Modal.Header>
-//         <Modal.Body>
-//         Thank you for contacting bakers. We will get back to you asap!
-//         </Modal.Body></Modal>
-//   </Container>
-
-
-// export default ContactsThankYou;
+export default ContactsThankYou;
