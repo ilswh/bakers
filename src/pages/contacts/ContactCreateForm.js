@@ -44,7 +44,7 @@ const ContactCreateForm = () => {
 
     try {
       await axiosReq.post("/contacts/", formData);
-      history.push("/ContactsThankYou.js");
+      history.goBack();
       handleShow();
     } catch (err) {
       if (err.response?.status !== 401) {
@@ -87,7 +87,7 @@ const ContactCreateForm = () => {
       ))}
 
       <Button className={`${btnStyles.Button} ${btnStyles.Bright}`}
-       onClick={() => history.goBack()}>
+       onClick={() => history.push("ContactsThankYou")}>
         Changed my mind
       </Button>
       <Button className={`${btnStyles.Button} ${btnStyles.Bright}`}
