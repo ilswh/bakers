@@ -16,6 +16,7 @@ import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
 import NotFound from "./components/NotFound";
 import ContactCreateForm from "./pages/contacts/ContactCreateForm";
+import ContactThankYou from "./pages/contacts/ContactsThankYou";
 
 function App() {
   const currentUser = useCurrentUser();
@@ -88,6 +89,11 @@ function App() {
             exact
             path="/contact/create/"
             render={() => <ContactCreateForm />}
+          />
+          <Route
+            exact
+            path="/contact/send/"
+            render={() => <ContactThankYou />}
           />
 
           <Route render={() => <NotFound />} />
