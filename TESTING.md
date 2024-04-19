@@ -216,6 +216,10 @@ I fully acknowledge and understand that, in a real-world scenario, an extensive 
 
     - To fix this, I realized I had not added any of my bookmarks(screenshot: terminal error message) I had not added the bookmarks in the cardbody, so I added them there.
 
+-  The user did not know what happend after sending a message under contact.
+
+    - To fix this, I created ContactThankYou.js.
+
 -  It was not possible to unlike, unbookmark nor edit comments, posts or profiles.
 
     ![screenshot](documentation/bugtab.png)
