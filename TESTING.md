@@ -214,11 +214,21 @@ I fully acknowledge and understand that, in a real-world scenario, an extensive 
 
 -  The bookmark icon did not show under any post.
 
-    ![screenshot](documentation/bugbookmark.png)
-
     - To fix this, I realized I had not added any of my bookmarks(screenshot: terminal error message) I had not added the bookmarks in the cardbody, so I added them there.
 
+-  It was not possible to unlike, unbookmark nor edit comments, posts or profiles.
+
+    ![screenshot](documentation/bugtab.png)
+
+    - To fix this, I deleted one tab in my backend file permissions.py
+
 ### Backend
+
+-  It was not possible to unlike, unbookmark nor edit comments, posts or profiles.
+
+    ![screenshot](documentation/bugtab.png)
+
+    - To fix this, I deleted one tab in my backend file permissions.py
 
 -  The avatar in the navbar did not work.
 
