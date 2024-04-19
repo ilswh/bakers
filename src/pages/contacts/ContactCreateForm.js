@@ -44,7 +44,7 @@ const ContactCreateForm = () => {
 
     try {
       await axiosReq.post("/contacts/", formData);
-      history.push("ContactThankYou");
+      history.push("/contact/send/");
       handleShow();
     } catch (err) {
       if (err.response?.status !== 401) {
